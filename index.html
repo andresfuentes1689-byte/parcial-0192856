@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Dash - Comida a domicilio</title>
+
+  <!-- Fuente de Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Aquí conectamos el CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========== MENÚ + INICIO (fondo durazno) ========== -->
+  <section class="fondo-durazno">
+    <div class="contenedor">
+
+      <header class="menu">
+        <h1 class="logo">Food <span>Dash</span></h1>
+        <nav>
+          <a href="#inicio" class="activo">Inicio</a>
+          <a href="#menu">Menú</a>
+          <a href="#ofertas">Ofertas</a>
+          <a href="#servicio">Servicio</a>
+          <a href="#contacto">Nosotros</a>
+        </nav>
+        <div class="iconos-menu">
+          <div class="boton-redondo">🔍</div>
+          <div class="avatar">👤</div>
+        </div>
+      </header>
+
+      <div class="inicio" id="inicio">
+        <div class="inicio-texto">
+          <h2>
+            <span class="naranja">Rápida y Deliciosa</span>
+            <span class="naranja">Comida a tu puerta</span>
+            con una pizca de velocidad
+          </h2>
+          <a href="#menu" class="boton-naranja">Pedir ahora</a>
+          <a href="#" class="boton-borde">Seguir pedido</a>
+        </div>
+
+        <!-- Plato grande (cambia el emoji por una imagen si quieres) -->
+        <div class="inicio-plato">🍛</div>
+      </div>
+
+      <!-- Tarjeta blanca con 3 ventajas -->
+      <div class="ventajas" id="servicio">
+        <div class="ventaja">
+          <span class="icono">🛵</span>
+          <div>
+            <h4>Entrega rápida</h4>
+            <p>Promesa de entrega en menos de 30 minutos</p>
+          </div>
+        </div>
+        <div class="ventaja">
+          <span class="icono">🥗</span>
+          <div>
+            <h4>Comida fresca</h4>
+            <p>Tu comida llega fresca y recién preparada</p>
+          </div>
+        </div>
+        <div class="ventaja">
+          <span class="icono">📦</span>
+          <div>
+            <h4>Envío gratis</h4>
+            <p>Entrega gratis en tus pedidos favoritos</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ========== PLATOS MÁS PEDIDOS ========== -->
+  <section class="contenedor seccion">
+    <div class="titulo-fila">
+      <h2>Nuestros <span class="naranja">platos más pedidos</span> de la India</h2>
+      <p>Es tu momento de disfrutar los mejores platos de nuestros restaurantes. Lo entregamos a tu puerta.</p>
+    </div>
+
+    <div class="destacados">
+      <div class="destacado">
+        <div class="plato-redondo">🍚</div>
+        <h4>Pulao de verduras</h4>
+        <a href="#">Pedir ahora ></a>
+      </div>
+      <div class="destacado">
+        <div class="plato-redondo">🍛</div>
+        <h4>Paneer Bhuna Masala</h4>
+        <a href="#">Pedir ahora ></a>
+      </div>
+      <div class="destacado">
+        <div class="plato-redondo">🥣</div>
+        <h4>Upma de sémola</h4>
+        <a href="#">Pedir ahora ></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CINTA DE REGIONES ========== -->
+  <div class="cinta">
+    <span>✚ Rajasthan</span>
+    <span>✚ India del Sur</span>
+    <span>✚ Gujarat</span>
+    <span>✚ Maharashtra</span>
+    <span>✚ Bengala</span>
+  </div>
+
+  <!-- ========== MENÚ REGULAR ========== -->
+  <section class="contenedor seccion" id="menu">
+    <div class="titulo-fila">
+      <div>
+        <h2>Nuestro <span class="naranja">menú diario</span></h2>
+        <p class="subtexto">Aquí encuentras tus platos de siempre. Pide lo que más te gusta.</p>
+      </div>
+      <a href="#" class="boton-naranja pequeño">Ver todo</a>
+    </div>
+
+    <div class="menu-grid">
+      <div class="tarjeta-plato">
+        <div class="plato-redondo mini">🍮</div>
+        <small class="naranja">Postre indio</small>
+        <h4>Angoori Rasmalai</h4>
+        <p class="estrellas">★★★★★ (120)</p>
+        <div class="precio-fila"><strong>$250</strong><a href="#" class="boton-naranja mini-boton">Comprar</a></div>
+      </div>
+      <div class="tarjeta-plato">
+        <div class="plato-redondo mini">🍛</div>
+        <small class="naranja">Snacks de la tarde</small>
+        <h4>Snacks Tea Time</h4>
+        <p class="estrellas">★★★★★ (90)</p>
+        <div class="precio-fila"><strong>$250</strong><a href="#" class="boton-naranja mini-boton">Comprar</a></div>
+      </div>
+      <div class="tarjeta-plato">
+        <div class="plato-redondo mini">🥟</div>
+        <small class="naranja">Snacks de la tarde</small>
+        <h4>Snacks Tea Time</h4>
+        <p class="estrellas">★★★★★ (60)</p>
+        <div class="precio-fila"><strong>$200</strong><a href="#" class="boton-naranja mini-boton">Comprar</a></div>
+      </div>
+      <div class="tarjeta-plato">
+        <div class="plato-redondo mini">🥘</div>
+        <small class="naranja">India del Sur</small>
+        <h4>Masala Dosa</h4>
+        <p class="estrellas">★★★★★ (80)</p>
+        <div class="precio-fila"><strong>$150</strong><a href="#" class="boton-naranja mini-boton">Comprar</a></div>
+      </div>
+      <div class="tarjeta-plato">
+        <div class="plato-redondo mini">🍲</div>
+        <small class="naranja">Gujarat</small>
+        <h4>Pav Bhaji</h4>
+        <p class="estrellas">★★★★★ (70)</p>
+        <div class="precio-fila"><strong>$250</strong><a href="#" class="boton-naranja mini-boton">Comprar</a></div>
+      </div>
+      <div class="tarjeta-plato">
+        <div class="plato-redondo mini">🍜</div>
+        <small class="naranja">Rajasthan</small>
+        <h4>Dal Baati Churma</h4>
+        <p class="estrellas">★★★★★ (55)</p>
+        <div class="precio-fila"><strong>$450</strong><a href="#" class="boton-naranja mini-boton">Comprar</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== OFERTAS ========== -->
+  <section class="contenedor seccion ofertas" id="ofertas">
+    <div class="cupon">
+      <h3>Cupón de comida india</h3>
+      <p class="codigo">40% DE DESCUENTO</p>
+      <small>Código: FOODDASH40</small>
+      <a href="#" class="boton-naranja pequeño">Usar cupón</a>
+    </div>
+
+    <div class="banners">
+      <div class="banner naranja-fondo">
+        <h3>25% DE DESCUENTO</h3>
+        <p>Oferta especial en comida del sur de la India</p>
+      </div>
+      <div class="banner cafe-fondo">
+        <h3>Restaurante Indio</h3>
+        <p>Los mejores sabores, directo a tu casa</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer" id="contacto">
+    <div class="contenedor footer-contenido">
+      <div class="footer-col">
+        <h1 class="logo">Food <span>Dash</span></h1>
+        <p>© 2026 Food Dash. Todos los derechos reservados.</p>
+        <p><strong class="naranja">Síguenos en</strong></p>
+      </div>
+      <div class="footer-col">
+        <h4 class="naranja">Menú</h4>
+        <p>Inicio</p>
+        <p>Ofertas</p>
+        <p>Servicio</p>
+        <p>Nosotros</p>
+      </div>
+      <div class="footer-col">
+        <h4 class="naranja">Información</h4>
+        <p>Preguntas</p>
+        <p>Términos</p>
+        <p>Hacer una reseña</p>
+      </div>
+      <div class="footer-col">
+        <h4 class="naranja">Contacto</h4>
+        <p>+57 300 123 4567</p>
+        <p>hola@fooddash.com</p>
+        <p>Bucaramanga, Colombia</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
